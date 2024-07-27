@@ -115,12 +115,6 @@
                     <a class="foot-link" href="{{ link.url }}">{{ link.name }}</a>
                   </div>
                 {% endfor %}
-                <div class="text">
-                  <img alt="link" height="20px" width="20px" src="{{ url_for("/images/icon/icon-link+.svg") }}" />
-                  <a class="foot-link"
-                     href="mailto:{{ theme.email }}?subject=%E7%94%B3%E8%AF%B7%20Hozen.site%20%E7%9A%84%E5%8F%8B%E9%93%BE%E4%BD%8D%E7%BD%AE">
-                  申请友链</a>
-                </div>
               </div>
             </div>
           {% endif %}
@@ -137,15 +131,6 @@
               </div>
             </div>
           {% endif %}
-          <div class="foot-item">
-            <div class="foot-item__head">联系</div>
-            <div class="foot-item__body">
-              <div class="text">
-                <img alt="link" height="20px" width="20px" src="{{ url_for("/images/icon/icon-email.svg") }}" />
-                <a class="foot-link" href="mailto:{{ theme.email }}">{{ theme.email }}</a>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="copyright">
           <a href="{{ config.url }}">{{ config.title }}</a> &nbsp;|&nbsp;由&nbsp;<a href="https://hexo.io/">Hexo</a>&nbsp;及&nbsp;
